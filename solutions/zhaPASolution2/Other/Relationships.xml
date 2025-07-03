@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_crc60_housekeeping2" />
+  <EntityRelationship Name="business_unit_crc60_room2" />
+  <EntityRelationship Name="crc60_housekeeping2_crc60_roomassigned_crc60_room2" />
+  <EntityRelationship Name="lk_crc60_housekeeping2_createdby" />
+  <EntityRelationship Name="lk_crc60_housekeeping2_modifiedby" />
+  <EntityRelationship Name="lk_crc60_room2_createdby" />
+  <EntityRelationship Name="lk_crc60_room2_modifiedby" />
+  <EntityRelationship Name="owner_crc60_housekeeping2" />
+  <EntityRelationship Name="owner_crc60_room2" />
+  <EntityRelationship Name="team_crc60_housekeeping2" />
+  <EntityRelationship Name="team_crc60_room2" />
+  <EntityRelationship Name="user_crc60_housekeeping2" />
+  <EntityRelationship Name="user_crc60_room2" />
+</EntityRelationships>
