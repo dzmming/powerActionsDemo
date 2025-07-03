@@ -29,7 +29,7 @@ on:
        required: true
        default: out/release
   release:
-    types: [created]
+    types: [createdtest]
   
 
 env:
