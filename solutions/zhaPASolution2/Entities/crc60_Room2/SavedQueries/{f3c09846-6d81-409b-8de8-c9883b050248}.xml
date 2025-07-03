@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f3c09846-6d81-409b-8de8-c9883b050248}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crc60_room1" select="1" icon="1" preview="1">
+        <row name="result" id="crc60_room2id">
+          <cell name="crc60_room1" width="300" />
+          <cell name="crc60_roomtype" width="150" />
+          <cell name="crc60_status" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crc60_room2">
+          <attribute name="crc60_room2id" />
+          <attribute name="crc60_room1" />
+          <attribute name="createdon" />
+          <order attribute="crc60_room1" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="crc60_roomtype" />
+          <attribute name="crc60_status" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Rooms" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

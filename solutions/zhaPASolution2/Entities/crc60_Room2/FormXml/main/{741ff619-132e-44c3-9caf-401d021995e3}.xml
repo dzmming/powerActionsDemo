@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{741ff619-132e-44c3-9caf-401d021995e3}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{57e1da65-8049-47e8-ae65-0b29108980b8}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{16eafc7d-d267-4438-9459-a580919c3bf8}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{3603f79d-3067-488d-b9ea-a247bbff1ac3}">
+                        <labels>
+                          <label description="Room" languagecode="1033" />
+                        </labels>
+                        <control id="crc60_room1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crc60_room1" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{db4e2d34-0e68-4135-9f3c-d5ac0e981243}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c779fb3b-16f7-4c22-bd29-3989d7274599}">
+                        <labels>
+                          <label description="Room Type" languagecode="1033" />
+                        </labels>
+                        <control id="crc60_roomtype" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crc60_roomtype" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae5eb56a-885e-479c-ba8f-d188c3c7f6d1}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="crc60_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crc60_status" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
