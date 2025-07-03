@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8104a426-7cec-4ab9-9cfe-7559591f1e48}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{1f4c7a7e-d3c3-49b6-a7ae-01ae5022ffef}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{c1688641-44d0-4bc9-8f12-8ceaddcac2a1}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8619f8f7-4693-4596-b751-85ea3ddbc4e1}">
+                        <labels>
+                          <label description="Staff Name" languagecode="1033" />
+                        </labels>
+                        <control id="crc60_staffname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crc60_staffname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{181bc262-6c97-4e8b-b694-f003ad51610b}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fb471ec6-a667-43c5-989d-be2b0ab35c57}">
+                        <labels>
+                          <label description="Shift" languagecode="1033" />
+                        </labels>
+                        <control id="crc60_shift" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crc60_shift" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2ea5fe98-fcaa-4f94-8dc7-d66a0d318cf7}">
+                        <labels>
+                          <label description="Room" languagecode="1033" />
+                        </labels>
+                        <control id="crc60_roomassigned" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crc60_roomassigned" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
