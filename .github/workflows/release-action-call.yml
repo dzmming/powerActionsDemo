@@ -14,7 +14,8 @@ jobs:
       #You can specify the solution name here
       solution_name: zhaPASolution2
       #Update your values here
-      BUILD_ENVIRONMENT_URL: 'https://org88f235b6.crm.dynamics.com/'
+      #BUILD_ENVIRONMENT_URL: 'https://org88f235b6.crm.dynamics.com/'
+      BUILD_ENVIRONMENT_URL: 'https://orgb6fc1f45.crm.dynamics.com/'
       PRODUCTION_ENVIRONMENT_URL: 'https://orgb6fc1f45.crm.dynamics.com/'
       CLIENT_ID: 'bd1b27a7-4d01-47a0-874a-c4f8c730f6b2'
       TENANT_ID: '68b30b9f-c73c-43bd-9a8f-9a99aaac0b49'
