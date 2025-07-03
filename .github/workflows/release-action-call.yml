@@ -12,7 +12,7 @@ jobs:
     uses: ./.github/workflows/release-solution-to-prod-with-inputs.yml
     with:
       #You can specify the solution name here
-      solution_name: ALMLab
+      solution_name: zhaPASolution2
       #Update your values here
       BUILD_ENVIRONMENT_URL: 'https://org88f235b6.crm.dynamics.com/'
       PRODUCTION_ENVIRONMENT_URL: 'https://orgb6fc1f45.crm.dynamics.com/'
