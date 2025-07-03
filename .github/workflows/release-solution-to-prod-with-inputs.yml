@@ -61,13 +61,13 @@ jobs:
       with:
         lfs: true
 
-    - name: who-am-i action
-      uses: microsoft/powerplatform-actions/who-am-i@v0
-      with:
-        environment-url: ${{inputs.BUILD_ENVIRONMENT_URL}}
-        app-id: ${{inputs.CLIENT_ID}}
-        client-secret: ${{ secrets.envSecret }}
-        tenant-id: ${{inputs.TENANT_ID}}
+    # - name: who-am-i action
+    #   uses: microsoft/powerplatform-actions/who-am-i@v0
+    #   with:
+    #     environment-url: ${{inputs.BUILD_ENVIRONMENT_URL}}
+    #     app-id: ${{inputs.CLIENT_ID}}
+    #     client-secret: ${{ secrets.envSecret }}
+    #     tenant-id: ${{inputs.TENANT_ID}}
 
     - name: Pack solution
       uses: microsoft/powerplatform-actions/pack-solution@v0
