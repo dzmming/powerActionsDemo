@@ -11,7 +11,7 @@ on:
       solution_name:
         description: 'The solution name.'
         type: string
-        default: ALMLab       
+        default: zhaPASolution2       
       solution_shipping_folder:
         description: 'folder name for staging the exported solution *do not change*'        
         type: string
@@ -108,7 +108,7 @@ jobs:
         lfs: true
 
     - name: Fetch the ready to ship solution from GH artifact store
-      uses: actions/download-artifact@v2
+      uses: actions/download-artifact@v4
       with:
         name: managedSolutions
         path: ${{ inputs.solution_release_folder}}
